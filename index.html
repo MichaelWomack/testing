@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Angular App</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <!--BootStrap-->
+
+    <!--JavaScript-->
+
+</head>
+<body>
+<div class="container">
+    <div class="row" id="containerRow">
+
+        <form role="form" class="form-group" id="formContainer">
+            <div class="col-md-4">
+
+                <button class="btn btn-submit" id="plus">+</button>
+                <button class="btn btn-submit" id="minus">-</button>
+
+                <label>State</label>
+                <select name="states" id="selectState" class="form-control">
+                    <option value="state">Select</option>
+                </select>
+
+                <h3>Products</h3>
+                <label>Select Product </label>
+                <select name="products" id='selectProd' class="form-control input-xm">
+                    <option value="product">Select</option>
+                </select>
+                <label>Quantity<input type="number" class="form-control input-sm" id="quant"></label>
+                <span id="price"></span>
+
+            </div>
+
+            <div class="col-md-4 col-md-offset-4">
+                <label>First Name</label>
+                <input type="text" class="form-control">
+
+                <label>Last Name</label>
+                <input type="text" class="form-control">
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
